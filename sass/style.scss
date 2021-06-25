@@ -4,6 +4,7 @@ $font-heder: 'Montserrat', sans-serif;
 $font-italic: 'Playfair Display', serif;
 
 $color-light: #fff;
+$color-yell: #fed136;
 
 /* Global */
 
@@ -22,14 +23,34 @@ body {
     margin: 0 auto;
 }
 
-h1 {
+h2 {
 	font-size: 40px;
-	font-family: $font-italic;
-	font-weight: 400;
+	text-align: center;
+	font-family: $font-heder;
 }
 
-h2 {
+h1 {
 	font-size: 75px;
+}
+
+h3 {
+	font-size: 18px;
+	font-family: $font-heder;
+	text-align: center;
+	margin: 0 0 10px;
+
+}
+
+p {
+	text-align: center;
+	font-family: $font-italic;
+	margin: 0;
+	padding: 0;
+}
+
+.section-title {
+	margin: 120px 0 0px;
+	padding: 0;
 }
 
 /* Navigation */
@@ -64,24 +85,28 @@ h2 {
 
 .splash {
 	height: 700px;
+	max-width: 1400px;
+	margin: 0 auto;
     background-image: url('/images/background-image.png');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.section-title, .page-subtitle {
+.splash-title, .page-subtitle {
 	text-align: center;
 	color: $color-light;
 }
 
-.section-title {
-	margin: 180px 0 0;
+.page-subtitle {
+	margin: 20px 0 0;
+	font-family: $font-heder;
 }
 
-.page-subtitle {
-	font-family: $font-heder;
-	margin: 20px 0 0;
+.splash-title {
+	font-family: $font-italic;
+	font-weight: 400;
+	margin: 180px 0 0;
 }
 
 button {
@@ -91,12 +116,38 @@ button {
 	width: 250px;
 	margin: 0 auto;
 	margin-top: 60px;
-	background-color: #fed136;
+	background-color: $color-yell;
 	color: $color-light;
 	border: none;
 	border-radius: 6px;
 	font-family: $font-heder;
 	font-weight: 700;
 	font-size: 18px;
+}
+
+/* Services */
+
+.services {
+	padding-bottom: 120px;
+}
+
+.icon {
+	position: relative;
+	margin: 80px auto 25px;
+	height: 73px;
+	width: 73px;
+	border: 3px solid $color-yell;
+	border-radius: 50%;
+}
+
+.fa-shopping-basket,
+.fa-laptop-code,
+.fa-user-lock {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	color: $color-yell;
+	font-size: 36px;
 }
 
