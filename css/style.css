@@ -1,2 +1,45 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+.logo {
+  margin-top: 44px;
+}
+
+.col-10 {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li {
+  float: left;
+}
+
+.navbar-nav a {
+  display: block;
+  text-decoration: none;
+  padding-left: 30px;
+  margin-top: 45px;
+  font-family: "Montserrat", sans-serif;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBTUEsV0FBQTtBQUVBO0VBQ0ksc0JBQXNCO0FDTDFCOztBRE9BO0VBQ0ksU0FBUztFQUNULGVBQWU7RUFDZixnQkFBZ0I7QUNKcEI7O0FETUE7RUFDQyxnQkFBZ0I7RUFDYixjQUFjO0FDSGxCOztBREtBLGVBQUE7QUFFQTtFQUNDLGdCQUFnQjtBQ0hqQjs7QURNQTtFQUNJLG9CQUFvQjtFQUNwQix5QkFBeUI7QUNIN0I7O0FES0E7RUFDQyxxQkFBcUI7RUFDckIsU0FBUztFQUNULFVBQVU7QUNGWDs7QUREQTtFQUtDLFdBQVc7QUNBWjs7QURMQTtFQVFDLGNBQWM7RUFDZCxxQkFBcUI7RUFFckIsa0JBQWtCO0VBQ2xCLGdCQUFnQjtFQUNoQixxQ0F6Q29DO0FDeUNyQyIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

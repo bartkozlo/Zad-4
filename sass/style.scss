@@ -1,0 +1,46 @@
+/* Variables */
+
+$font-heder: 'Montserrat', sans-serif;
+
+$color-light: #fff;
+
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7; }
+
+.container {
+	max-width: 940px;
+    margin: 0 auto; }
+
+/* Navigation */
+
+.logo {
+	margin-top: 44px;
+}
+
+.col-10 {
+    display: inline-flex;
+    justify-content: flex-end; }
+
+.navbar-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	li {
+	float: left;
+	}
+	a {
+	display: block;
+	text-decoration: none;
+	// color: $color-light;
+	padding-left: 30px;
+	margin-top: 45px;
+	font-family: $font-heder;
+	}
+}
