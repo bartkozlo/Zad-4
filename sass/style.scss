@@ -232,3 +232,62 @@ button {
     }
 }
 
+/* Media Queries */
+
+@media (max-width: 575px) {
+	.splash {
+	height: 500px;
+	}
+	.gallery {
+	padding-left: 5px;
+	}
+	.navbar-nav {
+	font-size: 10px;
+	a {
+	padding-left: 5px;
+	}
+	}
+	.section-title {
+	padding-top: 40px;
+	}
+	.splash-title {
+	font-size: 20px;
+	}
+	.page-subtitle {
+	font-size: 40px;
+	}
+	button {
+	height: 40px;
+	width: 150px;
+	font-size: 10px;
+	}
+	.social {
+	justify-content: right;
+	margin-top: 0;
+	}
+	i {
+	font-size: 30px;
+	}
+	.portfolio {
+	padding-bottom: 40px;
+	}
+	.services {
+	padding-bottom: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery {
+	padding-left: 40px;
+	}
+	.d-none {
+	display: none;
+	}
+	.splash-title {
+	margin-top: 100px;
+	}
+	.copyright {
+	font-size: 15px;
+	}
+}
+
