@@ -49,8 +49,8 @@ p {
 }
 
 .section-title {
-	margin: 120px 0 0px;
-	padding: 0;
+	margin: 0;
+	padding: 120px 0 0;
 }
 
 /* Navigation */
@@ -149,5 +149,39 @@ button {
     transform: translate(-50%,-50%);
 	color: $color-yell;
 	font-size: 36px;
+}
+
+/* Portfolio */
+
+.portfolio {
+	background-color: #ecf0f1;
+	padding-bottom: 120px;
+	div p {
+		padding-bottom: 30px;
+	}
+}
+
+.card-image {
+	height: 301px;
+	width: 291px;
+	margin: 50px 0 0;
+}
+
+.card-image img {
+	max-width: 100%;
+	max-height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+	background-color: $color-light;
+	width: 291px;
+	h3 {
+	padding-top: 28px;
+	margin: 0;
+	}
+	p {
+	padding-bottom: 30px;
+	}
 }
 
