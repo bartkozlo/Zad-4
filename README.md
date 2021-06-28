@@ -1,6 +1,6 @@
 # landing page 
 
-A simple landing page using html, css and Bootstrap grid.
+A simple landing page using html, scss and Bootstrap grid.
 
 ## How to use
 
